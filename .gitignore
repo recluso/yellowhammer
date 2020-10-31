@@ -1,0 +1,53 @@
+# Ignore various IDE configuration files.
+.settings
+.buildpath
+.project
+.idea/
+.idea/**
+.DS_Store
+.editorconfig
+.code-workspace
+*.code-workspace
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sql.gz
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.sql.gz
+.sql
+
+# Ignore configuration files that may contain sensitive information.
+htdocs/sites/*/settings*.php
+htdocs/sites/*/local-settings.php
+htdocs/sites/*/settings*.php
+htdocs/sites/*/local-settings.php
+htdocs/sites/*/settings.local.php
+
+# Ignore paths that contain user-generated content.
+htdocs/files
+htdocs/sites/*/files
+htdocs/sites/*/private
+
+# Ignore this directory, contains some db dumps
+.tarballs/
+
+# Ignore ddev generated files
+.ddev/
+.ddev/*
+
+# Ignore ddev generated gitignore and locally created directory
+htdocs/sites/default/.gitignore
+htdocs/sites/default/files-private/
